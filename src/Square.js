@@ -1,5 +1,13 @@
-import { useState } from "react";
-
+/** Square:
+ *
+ * State: none
+ *
+ * Props:
+ * - value
+ * - onSquareClick ()
+ *
+ * Board -> Square
+ */
 function Square({ value, onSquareClick }) {
 
   return (
